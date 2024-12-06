@@ -16,12 +16,6 @@ function wpbrothers_register_menus() {
 }
 add_action('init', 'wpbrothers_register_menus');
 function wpbrothers_enqueue_scripts() {
-    wp_enqueue_script(
-        'menu-script', 
-        get_template_directory_uri() . '/assets/js/menu.js', 
-        [], // Geen afhankelijkheden
-        '1.0', // Versie
-        true // Laad in de footer
-    );
+    wp_enqueue_script('menu-script', get_template_directory_uri() . '/assets/js/menu.js', [], '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_scripts');

@@ -6,7 +6,7 @@ $item = $args['item'];
 $link = isset($item['link']) ? $item['link'] : site_url('/');
 ?>
 
-<a href="<?= esc_url($link); ?>" class="block rounded-lg overflow-hidden shadow-md">
+<a href="/blog/" class="block">
     <!-- Afbeelding -->
     <img src="<?= esc_url(get_template_directory_uri() . '/assets/images/' . $item['image']); ?>" alt="<?= esc_attr($item['title']); ?>" class="w-full h-64 object-cover">
     <!-- Tekst -->
