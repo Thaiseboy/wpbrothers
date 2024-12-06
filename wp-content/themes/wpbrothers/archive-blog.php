@@ -22,18 +22,21 @@ get_header();
                     'title' => 'Een Dag in het Leven van een WP Brothers Developer: Verwacht het Onverwachte!',
                     'category' => 'Blog',
                     'info' => ['Locatie', 'Fulltime'],
+                    'link' => site_url('/blogdetail/'),
                 ],
                 [
                     'image' => 'leesvoer2.jpg',
                     'title' => 'Waarom Werken bij WP Brothers Als WordPress Developer Jouw Beste Beslissing Ooit Zal Zijn',
                     'category' => 'Expertise',
                     'info' => ['Locatie', 'Fulltime'],
+                    'link' => site_url('/blogdetail/'),
                 ],
                 [
                     'image' => 'leesvoer3.jpg',
                     'title' => 'Van Plugin-Problemen tot Klantensuccessen: Mijn Avonturen bij WP Brothers',
                     'category' => 'Expertise',
                     'info' => ['Locatie', 'Fulltime'],
+                    'link' => site_url('/blogdetail/'),
                 ],
             ];
 

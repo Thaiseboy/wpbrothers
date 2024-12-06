@@ -1,9 +1,12 @@
 <?php
 if (!isset($args['item'])) return;
 $item = $args['item'];
+
+
+$link = isset($item['link']) ? $item['link'] : site_url('/');
 ?>
 
-<div class="rounded-lg overflow-hidden shadow-md">
+<a href="<?= esc_url($link); ?>" class="block rounded-lg overflow-hidden shadow-md">
     <!-- Afbeelding -->
     <img src="<?= esc_url(get_template_directory_uri() . '/assets/images/' . $item['image']); ?>" alt="<?= esc_attr($item['title']); ?>" class="w-full h-64 object-cover">
     <!-- Tekst -->
@@ -23,4 +26,4 @@ $item = $args['item'];
             </span>
         </div>
     </div>
-</div>
+</a>
