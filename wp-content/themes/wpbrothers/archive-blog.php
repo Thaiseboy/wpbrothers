@@ -7,7 +7,7 @@ get_header();
     <!-- Titel -->
     <section class="py-16 bg-neutral-5 ">
         <div class="container mx-auto">
-            <h1 class="text-h2 font-heading text-black">leesvoer</h1>
+            <h1 class="text-h2 font-heading text-black">Leesvoer</h1>
         </div>
     </section>
 

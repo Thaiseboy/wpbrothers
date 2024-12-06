@@ -10,8 +10,9 @@ get_header();
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <!-- Tekstkolom -->
             <div class="text-center md:text-left max-w-lg">
-                <h1 class="text-h1 font-heading text-black mb-5">
-                    Een Dag in het Leven van Bas, een WordPress Developer bij WP Brothers
+                <h1 class="text-h2 font-heading text-black mb-5">
+                    Een Dag in het Leven van <span class="text-primary">Bas</span>, 
+                    een WordPress Developer bij WP <span class="text-primary">Brothers</span>
                 </h1>
                 <p class="text-p text-gray-700">
                     Bij WP Brothers is geen enkele dag hetzelfde, en dat maakt werken hier zo ontzettend leuk. Vandaag neem ik je mee in een typische werkdag van mij, Bas, een van de WordPress developers bij WP Brothers.
@@ -84,7 +85,7 @@ get_header();
             <li>Knoppen</li>
             <li>Caption</li>
         </ol>
-        
+
         <!-- Knop -->
         <div class="mt-8">
             <?php
@@ -99,16 +100,28 @@ get_header();
 </section>
 
     <!-- Info Sectie -->
-    <section class="py-16 bg-neutral-5">
-        <div class="container mx-auto">
-            <div class="p-6 bg-primary-100 rounded-lg">
-                <p class="text-primary font-bold">Info</p>
-                <p class="text-gray-700">
-                    Werken bij WP Brothers betekent constant leren en groeien. De dynamische omgeving en het supportieve team zorgen ervoor dat elke dag met plezier naar mijn werk ga.
+    <section class="py-16 bg-neutral-0 mb-6">
+    <div class="container mx-auto">
+        <div class="flex items-start bg-blue-100 border-l-4 border-blue-500 p-6 rounded-lg shadow-md">
+            <!-- Icon -->
+            <div class="text-blue-500 text-2xl flex-shrink-0">
+                <i class="fa-solid fa-circle-info"></i>
+            </div>
+            <!-- Tekst -->
+            <div class="ml-4">
+                <h3 class="font-bold text-lg">Info</h3>
+                <p class="text-gray-700 mt-2">
+                    Werken bij WP Brothers betekent constant leren en groeien. De dynamische omgeving en het supportieve team zorgen ervoor dat elke dag met plezier naar mijn werk ga. 
+                    Als jij ook houdt van uitdagingen en graag deel uitmaakt van een innovatief team, dan is WP Brothers de perfecte plek voor jou!
                 </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!-- Afbeelding -->
+<div class="mt-8 md:mt-0 flex justify-center">
+<img src="<?= get_template_directory_uri(); ?>/assets/images/bas2.jpg" alt="Leesvoer afbeelding" class="w-8/12 rounded-lg shadow-md">
+</div>
 
     <!-- Gerelateerde Blogs -->
             <section class="py-16 bg-neutral-0">

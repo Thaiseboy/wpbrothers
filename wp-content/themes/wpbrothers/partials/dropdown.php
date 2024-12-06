@@ -2,7 +2,7 @@
 function render_dropdown($title, $items = []) {
     echo '<div class="relative group">';
     echo '<a href="#" class="text-gray-700 hover:text-orange-500 flex items-center">';
-    echo esc_html($title) . ' <span class="ml-1">&#x25BC;</span>';
+    echo esc_html($title) . ' <i class="fa-solid fa-chevron-down text-primary ml-1"></i>';
     echo '</a>';
     echo '<div class="absolute hidden group-hover:block bg-white shadow-md mt-2 w-40">';
     foreach ($items as $item) {

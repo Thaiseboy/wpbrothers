@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./**/*.{php,ts,js,twig}"],
+  content: ["./**/*.{php,ts,js,twig}"], // Controleer dat dit alle relevante bestanden dekt
   theme: {
     container: {
       center: true,
@@ -59,6 +59,11 @@ module.exports = {
       },
       black: {
         DEFAULT: "#000000",
+      },
+      blue: {
+        100: "#e7f3ff", // Licht blauw
+        500: "#007bff", // Primaire blauw
+        700: "#0056b3", // Donkerder blauw
       },
     },
     extend: {
