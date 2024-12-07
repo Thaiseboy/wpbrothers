@@ -16,6 +16,21 @@ function wpbrothers_register_menus() {
 }
 add_action('init', 'wpbrothers_register_menus');
 function wpbrothers_enqueue_scripts() {
-    wp_enqueue_script('menu-script', get_template_directory_uri() . '/assets/js/menu.js', [], '1.0', true);
+    wp_enqueue_script(
+        'menu-script', 
+        get_template_directory_uri() . '/assets/js/menu.js', 
+        [], 
+        null, 
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_scripts');
+
+function wpbrothers_enqueue_styles() {
+    // Standaard stijlbladen van je thema
+    wp_enqueue_style('theme-style', get_stylesheet_uri());
+
+    // Google Fonts: Plus Jakarta Sans
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap', false);
+}
+add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_styles');

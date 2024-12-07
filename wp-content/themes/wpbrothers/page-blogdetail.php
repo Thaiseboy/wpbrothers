@@ -31,11 +31,11 @@ get_header();
         <h2 class="text-black font-bold text-lg mb-4">Inhoudsopgave</h2>
         <div class="space-y-3">
             <div class="flex items-center space-x-3">
-                <i class="fa-solid fa-anchor text-primary text-lg"></i>
+                <i class="fa-solid fa-anchor text-primary-500 text-lg"></i>
                 <p class="text-gray-700 font-medium">De start</p>
             </div>
             <div class="flex items-center space-x-3">
-                <i class="fa-solid fa-anchor text-primary text-lg"></i>
+                <i class="fa-solid fa-anchor text-primary-500 text-lg"></i>
                 <p class="text-gray-700 font-medium">Einde middag</p>
             </div>
         </div>

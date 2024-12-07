@@ -45,7 +45,7 @@
 </div>
 
     <!-- Onderste Lijn -->
-    <div class="mt-10 border-t border-gray-600 pt-6">
+    <div class="mt-10  border-gray-600 pt-6">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div class="flex space-x-6 text-sm">
                 <a href="#" class="text-white hover:text-primary">Algemene voorwaarden</a>

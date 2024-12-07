@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./**/*.{php,ts,js,twig}"], // Controleer dat dit alle relevante bestanden dekt
+  content: ["./**/*.{php,ts,js,twig}"],
   theme: {
     container: {
       center: true,
@@ -13,57 +13,81 @@ module.exports = {
       },
     },
     fontFamily: {
-      heading: ['"Roboto", sans-serif'],
-      body: ['"Open Sans", sans-serif'],
+      heading: ['"Plus Jakarta Sans", sans-serif'],
+      body: ['"Plus Jakarta Sans", sans-serif'],
       icon: ['"Font Awesome 6 Free"'],
     },
     colors: {
       primary: {
-        DEFAULT: "#ff470b",
+        50: "#FFEFE8",
+        200: "#FFC6A8",
+        300: "#FF9368",
+        500: "#FF470B", // Base kleur
+        600: "#FF3A05", // Hover
+        700: "#CC2E04", // Active
+        900: "#992302",
       },
-      font: {
-        DEFAULT: "#191919",
-        darker: "#141414",
-      },
-      grey: {
-        DEFAULT: "#191919",
-        darker: "#141414",
-      },
-      message: {
-        DEFAULT: "#f8f8f8",
-        darker: "#dedede",
-        border: "#ededed",
-      },
-      succes: {
-        DEFAULT: "#3ca355",
-        2: "#e0f0e4",
-      },
-      warning: {
-        DEFAULT: "#f4a525",
-        2: "#fdf1dc",
-      },
-      error: {
-        DEFAULT: "#c84041",
-        2: "#f6e0e1",
+      secondary: {
+        50: "#E7F3FF",
+        300: "#85C4FF",
+        500: "#007BFF", // Base kleur
+        600: "#005BBB", // Hover
+        700: "#004699", // Active
       },
       neutral: {
-        0: "#fff",
-        5: "#f5f5f5",
-        25: "#eeeeee",
-        50: "#c2c8cf",
-        75: "#686c73",
-        100: "#353c45",
+        0: "#FFFFFF", // White
+        100: "#F5F5F5",
+        300: "#D9D9D9",
+        500: "#A6A6A6", // Base kleur
+        700: "#4D4D4D",
+        900: "#1A1A1A", // Black
       },
-      white: {
-        DEFAULT: "#ffffff",
+      success: {
+        50: "#E3F9E8",
+        300: "#6FD08F",
+        500: "#3CA355", // Base
+        700: "#2A7A3E",
       },
-      black: {
-        DEFAULT: "#000000",
+      warning: {
+        50: "#FFF7E5",
+        300: "#FFC966",
+        500: "#F4A525", // Base
+        700: "#D78C14",
       },
+      error: {
+        50: "#FEEAEA",
+        300: "#F49A9A",
+        500: "#C84041", // Base
+        700: "#992F32",
+      },
+      buttonPrimary: {
+        idle: "#FF470B",
+        hover: "#CC2E04",
+        active: "#992302",
+      },
+      buttonSecondary: {
+        idle: "#FFEFE8",
+        hover: "#FFC6A8",
+        active: "#FF9368",
+      },
+      buttonLink: {
+        idle: "#007BFF",
+        hover: "#005BBB",
+        active: "#004699",
+      },
+      white: "#ffffff",
+      black: "#000000",
       blue: {
-        100: "#e7f3ff", // Licht blauw
-        500: "#007bff", // Primaire blauw
-        700: "#0056b3", // Donkerder blauw
+        50: "#E7F3FF", // Licht blauw
+        300: "#85C4FF", // Hover blauw
+        500: "#007BFF", // Primaire blauw
+        700: "#004699", // Donkerder blauw
+      },
+      text: {
+        head: "#1A1A2E", // Voor headers
+        body: "#2E2E50", // Voor tekst
+        "body-light": "#4B4B72", // Voor lichtere tekst
+        placeholder: "#7C7C99", // Voor placeholders
       },
     },
     extend: {
@@ -75,7 +99,7 @@ module.exports = {
         h5: ["1.125rem", { lineHeight: "1.125rem", fontWeight: 700 }],
         h6: ["1rem", { lineHeight: "1.5rem", fontWeight: 700 }],
         p: [
-          "0.9375rem",
+          "1.25rem",
           { lineHeight: "1.5rem", letterSpacing: "0.2px", fontWeight: 400 },
         ],
         tag: ["0.75rem", { lineHeight: "1rem", fontWeight: 700 }],
@@ -84,6 +108,12 @@ module.exports = {
         "4/3": "4 / 3",
         "3/4": "3 / 4",
       },
+      borderWidth: {
+        DEFAULT: "1px",
+        2: "2px",
+        4: "4px",
+      },
     },
   },
+  plugins: [],
 };
