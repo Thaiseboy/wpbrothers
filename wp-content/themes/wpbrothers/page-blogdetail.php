@@ -89,7 +89,7 @@ get_header();
         <!-- Knop -->
         <div class="mt-8">
             <?php
-            include get_template_directory() . '/partials/button.php';
+            include get_template_directory() . '/partials/button/button.php';
             render_button('Button', '/', 'bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-light');
             ?>
         </div>
