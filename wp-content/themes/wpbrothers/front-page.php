@@ -61,7 +61,7 @@ get_header();
     </section>
 
     <!-- Over ons Sectie -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-16 bg-neutral-100">
         <div class="container mx-auto flex flex-col md:flex-row items-center">
             <div class="max-w-lg">
                 <p class="text-primary-500 font-body">Over ons</p>
@@ -127,7 +127,7 @@ get_header();
                 ];
 
                 foreach ($leesvoer as $item) {
-                    get_template_part('partials/leesvoer-item', null, ['item' => $item]);
+                    get_template_part('partials/item/leesvoer-item', null, ['item' => $item]);
                 }
                 ?>
             </div>

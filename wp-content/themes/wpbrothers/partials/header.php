@@ -1,7 +1,7 @@
 <?php
 defined('ABSPATH') || exit('Forbidden');
 ?>
-<header class="bg-white py-4 px-8 flex justify-between items-center fixed top-0 left-0 w-full shadow-md z-50">
+<header class="bg-neutral-100 mt-5 py-4 px-8 flex justify-between items-center fixed top-0 left-0 w-full shadow z-50">
     <!-- Logo -->
     <div class="flex items-center">
         <a href="<?= home_url(); ?>" class="flex items-center mt-1">
@@ -25,9 +25,9 @@ defined('ABSPATH') || exit('Forbidden');
             ?>
         </nav>
 
-<!-- Zoekbalk -->
-    <?php include get_template_directory() . '/partials/search/search.php'; ?>
-    <?php render_search_input(); ?>
+        <!-- Zoekbalk -->
+        <?php include get_template_directory() . '/partials/search/search.php'; ?>
+        <?php render_search_input(); ?>
 
         <!-- Contact-knop -->
         <div>
@@ -38,7 +38,7 @@ defined('ABSPATH') || exit('Forbidden');
 
     <!-- Hamburger Menu (voor mobiel) -->
     <div class="lg:hidden">
-        <button id="menu-toggle" class="focus:outline-none text-gray-700">
+        <button id="menu-toggle" class="focus:outline-none text-gray-70">
             <i class="fa-solid fa-bars text-2xl"></i>
         </button>
     </div>
@@ -46,7 +46,8 @@ defined('ABSPATH') || exit('Forbidden');
 
 <!-- Mobiel Menu -->
 <div id="mobile-menu" class="hidden flex-col bg-white shadow-lg absolute top-16 left-0 w-full py-4 z-40 lg:hidden">
+    <a href="/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
     <a href="/blog" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Blog</a>
-    <a href="/blogdetail" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Blog Detail</a>
+    <a href="/blogdetail" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Over Bas </a>
     <a href="/contact" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact</a>
 </div>

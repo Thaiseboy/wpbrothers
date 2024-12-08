@@ -3,11 +3,11 @@
 get_header();
 ?>
 
-<main class="pt-16">
+<main class="pt-16 bg-neutral-100">
     <!-- Titel -->
-    <section class="py-16 bg-neutral-5">
+    <section class="py-16 ">
         <div class="container mx-auto">
-            <h1 class="text-h2 font-heading text-black">Leesvoer</h1>
+            <h1 class="text-h2 font-heading"><span class="text-primary-500">Lees</span>voer</h1>
         </div>
     </section>
 
