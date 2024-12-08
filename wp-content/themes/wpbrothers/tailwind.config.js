@@ -19,61 +19,61 @@ module.exports = {
     },
     colors: {
       primary: {
-        50: "#FFEFE8",
-        200: "#FFC6A8",
-        300: "#FF9368",
+        50: "#FFEFE8", // Zeer lichte pastel oranje
+        200: "#FFC6A8", // Lichte oranje tint 
+        300: "#FF9368", // medium oranje tint
         500: "#FF470B", // Base kleur
-        600: "#FF3A05", // Hover
-        700: "#CC2E04", // Active
-        900: "#992302",
+        600: "#FF3A05", // Hover voor knoppen
+        700: "#CC2E04", // Active donker oranje
+        900: "#992302", // Donker Oranje, voor schaduw of tekstaccent
       },
       secondary: {
-        50: "#E7F3FF",
-        300: "#85C4FF",
+        50: "#E7F3FF", // Zeer lichte blauw
+        300: "#85C4FF", // Lichte blauw voor hoever of labels
         500: "#007BFF", // Base kleur
-        600: "#005BBB", // Hover
-        700: "#004699", // Active
+        600: "#005BBB", // Hover voor blauwe knoppen
+        700: "#004699", // Active kleur diepere blauw
       },
       neutral: {
-        0: "#FFFFFF", // White
-        100: "#F5F5F5",
-        300: "#D9D9D9",
-        500: "#A6A6A6", // Base kleur
-        700: "#4D4D4D",
-        900: "#1A1A1A", // Black
+        0: "#FFFFFF", // Wit
+        100: "#F5F5F5", // Zeer licht grijs
+        300: "#D9D9D9", // Licht grijs
+        500: "#A6A6A6", // Medium grijs
+        700: "#4D4D4D", // Donker grijs
+        900: "#1A1A1A", // Zwart
       },
       success: {
-        50: "#E3F9E8",
-        300: "#6FD08F",
-        500: "#3CA355", // Base
-        700: "#2A7A3E",
+        50: "#E3F9E8", // Zeer lichte groen
+        300: "#6FD08F", // Medium groen
+        500: "#3CA355", // Base kleur voor succesberichten
+        700: "#2A7A3E", // Donker groen
       },
       warning: {
-        50: "#FFF7E5",
-        300: "#FFC966",
+        50: "#FFF7E5", // Zeer lichte geel/oranje voor achtergrondnotificaties
+        300: "#FFC966", // Medium oranje-geel hover effect
         500: "#F4A525", // Base
-        700: "#D78C14",
+        700: "#D78C14", // Donker oranje - geel 
       },
       error: {
-        50: "#FEEAEA",
-        300: "#F49A9A",
+        50: "#FEEAEA", // Zeer lichte rood 
+        300: "#F49A9A", // Medium rood 
         500: "#C84041", // Base
-        700: "#992F32",
+        700: "#992F32", // Donker rood 
       },
       buttonPrimary: {
-        idle: "#FF470B",
-        hover: "#CC2E04",
-        active: "#992302",
+        idle: "#FF470B", // Oranje, basis
+        hover: "#CC2E04", // Donker oranje
+        active: "#992302",// Donkerder oranje
       },
       buttonSecondary: {
-        idle: "#FFEFE8",
-        hover: "#FFC6A8",
-        active: "#FF9368",
+        idle: "#FFEFE8", // Zeer lichte oranje 
+        hover: "#FFC6A8", // Lichte oranje 
+        active: "#FF9368", // Donkerder oranje 
       },
       buttonLink: {
-        idle: "#007BFF",
-        hover: "#005BBB",
-        active: "#004699",
+        idle: "#007BFF", // Primaire blauw
+        hover: "#005BBB", // Donkerder blauw
+        active: "#004699", // Nog donkerder blauw
       },
       white: "#ffffff",
       black: "#000000",

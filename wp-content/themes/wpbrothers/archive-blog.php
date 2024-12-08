@@ -49,7 +49,7 @@ get_header();
                 ];
 
                 foreach ($leesvoer as $item) {
-                    get_template_part('partials/leesvoer-item', null, ['item' => $item]);
+                    get_template_part('partials/item/leesvoer-item', null, ['item' => $item]);
                 }
                 ?>
             </div>

@@ -5,7 +5,7 @@ get_header();
 
 <main class="pt-16">
     <!-- Hero Sectie -->
-    <section class="bg-neutral-50 py-16">
+    <section class="bg-neutral-100 py-16">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <div class="text-center md:text-left max-w-lg">
                 <p class="text-primary-500 font-body">WP Brothers</p>
