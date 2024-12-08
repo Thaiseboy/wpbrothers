@@ -100,11 +100,8 @@ get_header();
             <div class="mt-8">
                 <?php
             include get_template_directory() . '/partials/button/button.php';
-            render_button('Button', '/', 'bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-light');
+            render_button('Button', '/', 'bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-white hover:text-black hover:border-primary-500');
             ?>
-            </div>
-            <div>
-
             </div>
         </div>
     </section>

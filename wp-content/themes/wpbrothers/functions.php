@@ -27,10 +27,16 @@ function wpbrothers_enqueue_scripts() {
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_scripts');
 
 function wpbrothers_enqueue_styles() {
-    // Standaard stijlbladen van je thema
+    // Standaard stijlbladen van de thema
     wp_enqueue_style('theme-style', get_stylesheet_uri());
 
     // Google Fonts: Plus Jakarta Sans
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap', false);
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_styles');
+
+function enqueue_custom_styles_and_scripts() {
+    // font awesome
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_styles_and_scripts');
