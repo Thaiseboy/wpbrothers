@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log("DOM Loaded");
 });
 
+//  Burger menu voor mobiel en tablet 
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");

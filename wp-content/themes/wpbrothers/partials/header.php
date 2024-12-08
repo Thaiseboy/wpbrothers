@@ -1,7 +1,8 @@
 <?php
 defined('ABSPATH') || exit('Forbidden');
 ?>
-<header class="bg-neutral-100 mt-5 py-4 px-8 flex justify-between items-center fixed top-0 left-0 w-full shadow z-50">
+<header
+    class="bg-neutral-100 mt-5 py-4 px-8 flex justify-between items-center fixed top-0 left-0 w-full shadow z-50 lg:static lg:shadow-none">
     <!-- Logo -->
     <div class="flex items-center">
         <a href="<?= home_url(); ?>" class="flex items-center mt-1">

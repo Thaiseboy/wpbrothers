@@ -13,12 +13,14 @@ get_header();
                 <p class="font-body text-neutral-700 mt-4">
                     Welkom bij WP Brothers, de plek waar jouw WordPress magie werkelijkheid wordt.
                     Of je nu een CSS-kunstenaar bent, een PHP-guru of een plug-in pionier, wij zijn op zoek naar jou!
-                    Bereid je voor om deel uit te maken van een team waar innovatie en creativiteit hoog in het vaandel staan.
+                    Bereid je voor om deel uit te maken van een team waar innovatie en creativiteit hoog in het vaandel
+                    staan.
                     Klaar om de uitdaging aan te gaan? Laten we samen de mooiste WordPress-wonderen creëren!
                 </p>
             </div>
             <div class="flex space-x-4 mt-8 md:mt-0 drop-shadow-2xl">
-                <img src="<?= get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo WP Brothers" class="w-1/2">
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo WP Brothers"
+                    class="w-1/2">
             </div>
         </div>
     </section>
@@ -68,16 +70,20 @@ get_header();
                 <h2 class="text-h2 font-heading text-neutral-900">Waarom WP Brothers?</h2>
                 <p class="font-body text-neutral-700 mt-4">
                     Bij WP Brothers draait alles om creativiteit, innovatie en samenwerking.
-                    Wij zijn een dynamisch team van WordPress fanaten die de grenzen van webontwikkeling opzoeken en verleggen.
-                    Werken bij ons betekent deel uitmaken van een hechte familie die samenwerkt om de beste WordPress-oplossingen te bieden aan onze klanten.
+                    Wij zijn een dynamisch team van WordPress fanaten die de grenzen van webontwikkeling opzoeken en
+                    verleggen.
+                    Werken bij ons betekent deel uitmaken van een hechte familie die samenwerkt om de beste
+                    WordPress-oplossingen te bieden aan onze klanten.
                 </p>
-                <a href="#" class="mt-8 inline-block border border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-500 hover:text-white transition font-body">
+                <a href="#"
+                    class="mt-8 inline-block border border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-500 hover:text-white transition font-body">
                     Over ons
                     <i class="fa-solid fa-chevron-right text-primary-500 ml-1"></i>
                 </a>
             </div>
             <div class="mt-8 md:mt-0">
-                <img src="<?= get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Over ons" class="h-64 rounded-lg shadow-md">
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Over ons"
+                    class="h-64 rounded-lg shadow-md">
             </div>
         </div>
     </section>
@@ -86,16 +92,21 @@ get_header();
     <section class="py-16">
         <div class="container mx-auto flex flex-col md:flex-row items-center">
             <div class="md:w-1/3">
-                <img src="<?= get_template_directory_uri(); ?>/assets/images/solliciteren.jpg" alt="Solliciteren" class="h-64 rounded-lg shadow-md">
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/solliciteren.jpg" alt="Solliciteren"
+                    class="h-64 rounded-lg shadow-md">
             </div>
             <div class="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <p class="text-primary-500 text-sm uppercase tracking-wide font-body">Solliciteren</p>
                 <h2 class="text-h2 font-heading text-neutral-900 mt-4">Sluit je aan bij WP Brothers!</h2>
                 <p class="font-body text-neutral-700 mt-4">
-                    Als je klaar bent om je carrière naar een hoger niveau te tillen en deel wilt uitmaken van een team dat streeft naar uitmuntendheid, dan is WP Brothers de plek voor jou.
-                    We zijn altijd op zoek naar getalenteerde WordPress developers die onze passie voor webontwikkeling delen.
+                    Als je klaar bent om je carrière naar een hoger niveau te tillen en deel wilt uitmaken van een team
+                    dat streeft naar uitmuntendheid, dan is WP Brothers de plek voor jou.
+                    We zijn altijd op zoek naar getalenteerde WordPress developers die onze passie voor webontwikkeling
+                    delen.
                 </p>
-                <a href="#" class="inline-block border border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-500 hover:text-white transition font-body mt-5">Werken bij</a>
+                <a href="#"
+                    class="inline-block border border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-500 hover:text-white transition font-body mt-5">Werken
+                    bij</a>
             </div>
         </div>
     </section>

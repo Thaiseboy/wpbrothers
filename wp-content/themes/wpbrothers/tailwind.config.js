@@ -5,10 +5,10 @@ module.exports = {
       center: true,
       padding: "1rem",
       screens: {
-        sm: "100%",
-        md: "100%",
-        lg: "1024px",
-        xl: "1148px",
+        sm: "100%", // Mobiel telefoon
+        md: "100%", // Kleinere tablets
+        lg: "1024px", // Grotere schermen 13inc laptop
+        xl: "1148px", // Grotere scherm 15inc of meer
         "2xl": "1148px",
       },
     },

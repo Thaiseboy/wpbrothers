@@ -31,7 +31,7 @@ function wpbrothers_enqueue_styles() {
     wp_enqueue_style('theme-style', get_stylesheet_uri());
 
     // Google Fonts: Plus Jakarta Sans
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap', false);
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_styles');
 
