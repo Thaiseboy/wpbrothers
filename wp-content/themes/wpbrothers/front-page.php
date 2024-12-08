@@ -112,7 +112,7 @@ get_header();
     </section>
 
     <!-- Leesvoer -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-16 bg-neutral-0">
         <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                 <?php
@@ -122,18 +122,21 @@ get_header();
                         'title' => 'Een Dag in het Leven van een WP Brothers Developer: Verwacht het Onverwachte!',
                         'category' => 'Blog',
                         'info' => ['Locatie', 'Fulltime'],
+                        'link' => site_url('/blogdetail/'),
                     ],
                     [
                         'image' => 'leesvoer2.jpg',
                         'title' => 'Waarom Werken bij WP Brothers Als WordPress Developer Jouw Beste Beslissing Ooit Zal Zijn',
                         'category' => 'Expertise',
                         'info' => ['Locatie', 'Fulltime'],
+                        'link' => site_url('/blogdetail/'),
                     ],
                     [
                         'image' => 'leesvoer3.jpg',
                         'title' => 'Van Plugin-Problemen tot Klantensuccessen: Mijn Avonturen bij WP Brothers',
                         'category' => 'Expertise',
                         'info' => ['Locatie', 'Fulltime'],
+                        'link' => site_url('/blogdetail/'),
                     ],
                 ];
 

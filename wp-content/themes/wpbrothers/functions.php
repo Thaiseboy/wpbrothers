@@ -15,6 +15,8 @@ function wpbrothers_register_menus() {
     ]);
 }
 add_action('init', 'wpbrothers_register_menus');
+
+// Hamburger menu
 function wpbrothers_enqueue_scripts() {
     wp_enqueue_script(
         'menu-script', 
@@ -26,6 +28,7 @@ function wpbrothers_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_scripts');
 
+// Letters en thema's
 function wpbrothers_enqueue_styles() {
     // Standaard stijlbladen van de thema
     wp_enqueue_style('theme-style', get_stylesheet_uri());
@@ -34,6 +37,8 @@ function wpbrothers_enqueue_styles() {
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
 }
 add_action('wp_enqueue_scripts', 'wpbrothers_enqueue_styles');
+
+// Font awesome voor icon
 
 function enqueue_custom_styles_and_scripts() {
     // font awesome
