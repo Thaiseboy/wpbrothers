@@ -49,7 +49,7 @@ get_header();
                 ];
 
                 foreach ($leesvoer as $item) {
-                    get_template_part('partials/item/leesvoer-item', null, ['item' => $item]);
+                    get_template_part('partials/blog/blog-item', null, ['item' => $item]);
                 }
                 ?>
             </div>
@@ -74,7 +74,7 @@ get_header();
     <h1 class="text-3xl font-bold mb-8">Dynamishe blog via WordPress Admin</h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <?php get_template_part('partials/blog-post'); ?>
+            <?php get_template_part('partials/blog/blog-dynamish'); ?>
         <?php endwhile; else : ?>
             <p>Geen berichten gevonden.</p>
         <?php endif; ?>
